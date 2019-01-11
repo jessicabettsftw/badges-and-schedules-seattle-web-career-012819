@@ -15,6 +15,6 @@ end
 def assign_rooms(speakers_array)
   
   speakers_array.each do |speaker|
-    room = speaker.
-    message = "Hello, #{speaker}! You'll be assigned to room #{"
+    room = speakers_array.index_of(speaker)
+    message = "Hello, #{speaker}! You'll be assigned to room #{room}!"
 end
