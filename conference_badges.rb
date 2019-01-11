@@ -14,11 +14,12 @@ end
 
 def assign_rooms(speakers_array)
   room_assignment = []
+  room = 1
   
   speakers_array.each do |speaker|
-    room = speakers_array.index_of(speaker)
     message = "Hello, #{speaker}! You'll be assigned to room #{room}!"
     room_assignment.push(message)
+    room += 1
   end
   return room_assignment
 end
