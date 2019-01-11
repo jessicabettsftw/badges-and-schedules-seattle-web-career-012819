@@ -23,3 +23,7 @@ def assign_rooms(speakers_array)
   end
   return room_assignment
 end
+
+def printer(attendees)
+  
+end
