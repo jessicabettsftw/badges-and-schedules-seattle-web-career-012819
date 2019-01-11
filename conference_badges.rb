@@ -32,4 +32,8 @@ def printer(attendees)
     puts element
   end
   
+  room_array.each do |element|
+    puts element
+  end
+  
 end
